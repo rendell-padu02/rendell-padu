@@ -18,13 +18,13 @@ const Navbar: React.FC = () => {
          aria-label="LinkedIn">
            <FaLinkedin />
       </a>
-      <a href="https://www.linkedin.com/in/rendell-padu/" 
+      <a href="https://github.com/rendell-padu02" 
          target = "_blank" 
          rel="noopener noreferrer"
          aria-label="GitHub">
            <FaGithub />
       </a>
-      <a href="https://www.linkedin.com/in/rendell-padu/" 
+      <a href="https://www.instagram.com/rendellrocks?igsh=Nzl1bXR5bmoyN2Vv&utm_source=qr" 
          target = "_blank" 
          rel="noopener noreferrer"
          aria-label="Instagram">
