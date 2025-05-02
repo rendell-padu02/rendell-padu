@@ -34,6 +34,14 @@ const Hero: React.FC = () => {
                             animate={{x:0, opacity: 1}}
                             transition={{duration:1, delay:1.5}}/>
                     </div>
+                    <motion.p
+                        initial= {{x:100, opacity: 0}}
+                        animate={{x:0, opacity: 1}}
+                        transition={{duration:1, delay:2}} 
+                        variants={childVariants} 
+                        className="bg-gradient-to-r from-stone-300 to-stone-600 bg-clip-text text-3xl tracking-tight text-transparent text-center mx-auto">
+                        Let’s turn big ideas—and even bigger data—into something amazing.
+                    </motion.p>
                 </div>
                 <div className="w-full lg:w-1/2">
                     <motion.div 
@@ -50,7 +58,8 @@ const Hero: React.FC = () => {
                             target="_blank"
                             rel="noopener noreferrer"
                             download
-                            className="bg-white rounded-full p-4 text-sm text-stone-800 mb-10">Download Resume</motion.a>
+                            className="bg-white rounded-full p-4 text-sm text-stone-800 mb-10">Download Resume
+                        </motion.a>
                     </motion.div>
                 </div>
             </div>
