@@ -63,7 +63,9 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "171 1/2, West end Ave, Binghamton, New York, 13905 ",
-  phoneNo: "+1(862)-214-5425 ",
-  email: "rendell.padu02@gmail.com",
+  address: "Binghamton, New York, 13905 ",
+  phoneNo: "+1 (862)-214-5425 ",
+  email: <a href="mailto:rendell.padu02@gmail.com" className="text-teal-500 hover:underline ml-2">
+  rendell.padu02@gmail.com
+</a>,
 };
